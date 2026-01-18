@@ -1,0 +1,23 @@
+[
+  {
+    "year": "2026",
+    "seatNo": "H654321",
+    "studentName": "DEMO STUDENT",
+    "motherName": "KAVITA",
+    "fatherName": "SURESH",
+    "stream": "Science",
+    "school": "XYZ Junior College",
+    "resultStatus": "PASS",
+    "totalMarks": 472,
+    "percentage": 78.67,
+    "subjects": [
+      {
+        "name": "English",
+        "theory": 70,
+        "practical": null,
+        "total": 70,
+        "grade": "A"
+      }
+    ]
+  }
+]
