@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Maharashtra HSC Results</title>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header style="padding:16px;border-bottom:1px solid #ddd;">
+    <h2>Maharashtra State Board</h2>
+    <p>HSC (Class 12) Result Portal</p>
+  </header>
+
+  <main style="padding:20px;">
+    <h3>Check HSC Result (2025 / 2026)</h3>
+
+    <form id="searchForm">
+      <p>
+        <label>Year:</label><br>
+        <select id="year">
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+        </select>
+      </p>
+
+      <p>
+        <label>Seat No:</label><br>
+        <input type="text" id="seatNo" placeholder="H123456" required>
+      </p>
+
+      <p>
+        <label>Mother Name:</label><br>
+        <input type="text" id="motherName" required>
+      </p>
+
+      <p>
+        <label>Father Name:</label><br>
+        <input type="text" id="fatherName" required>
+      </p>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <div id="status"></div>
+
+    <div id="result" style="margin-top:20px;"></div>
+  </main>
+
+  <!-- JS file -->
+  <script src="app.js"></script>
+</body>
+</html>
