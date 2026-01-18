@@ -1,0 +1,37 @@
+[
+  {
+    "year": "2025",
+    "seatNo": "H123456",
+    "studentName": "ANUBHAV SHUKLA",
+    "motherName": "SUNITA",
+    "fatherName": "RAMESH",
+    "stream": "Science",
+    "school": "ABC Junior College",
+    "resultStatus": "PASS",
+    "totalMarks": 510,
+    "percentage": 85,
+    "subjects": [
+      {
+        "name": "English",
+        "theory": 75,
+        "practical": null,
+        "total": 75,
+        "grade": "A"
+      },
+      {
+        "name": "Physics",
+        "theory": 70,
+        "practical": 25,
+        "total": 95,
+        "grade": "A"
+      },
+      {
+        "name": "Chemistry",
+        "theory": 68,
+        "practical": 25,
+        "total": 93,
+        "grade": "A"
+      }
+    ]
+  }
+]
